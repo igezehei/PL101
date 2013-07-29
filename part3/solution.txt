@@ -1,0 +1,30 @@
+The solution to the problem using breadth first graph search algorithm is: 
+
+Initial State: No Action!
+State 0:
+Atom at(plane1, city0)
+Atom at(person1, city0)
+Atom at(person2, city0)
+
+
+<Action: (board person2 plane1 city0)>
+State 1:
+Atom at(plane1, city0)
+Atom at(person1, city0)
+Atom in(person2, plane1)
+
+
+<Action: (fly plane1 city0 city1)>
+State 2:
+Atom at(person1, city0)
+Atom in(person2, plane1)
+Atom at(plane1, city1)
+
+
+<Action: (debark person2 plane1 city1)>
+State 3:
+Atom at(person1, city0)
+Atom at(plane1, city1)
+Atom at(person2, city1)
+
+
